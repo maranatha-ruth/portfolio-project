@@ -1,27 +1,31 @@
   html {
-    background-color: darkgrey;
-    font-family: sans-serif;
-    text-align: center;
+    background-color:white;
+    font-family:sans-serif;
+    text-align:center;
   }
   em{
-    color:#000000
+    color:darkred;
   }
-  nav{
-    max-width:960px;
-    margin:0 auto;
-    padding:10px
-  
-}
-nav>ul{
-    text-align: block;
-
-}
-nav>ul>li{
-    display: inline-block
-}
-nav>ul>li>a{
-    padding:10px;
-    margin-right:0;
-    text-decoration:none;
-    display:block;
-}
+  .nav{
+    background-color:gray;
+    overflow: hidden;
+ 
+ }
+ 
+ .nav a{
+    float: right;
+    color:grey;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ 
+ .nav a:hover{
+    background-color: black;
+   color:white;
+ }
+ 
+ .nav a:visited{
+    color: blue;
+ }
