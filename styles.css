@@ -1,15 +1,27 @@
-h1 {
-    color: darkgrey;
-  }
-  h2 {
-    font-style: italic;
-    color: red;
-  }
-  p {
-    color: crimson;
-  }
   body {
-    background-color: salmon;
+    background-color: darkgrey;
     font-family: sans-serif;
     text-align: center;
   }
+  em{
+    color:#000000
+  }
+  nav{
+    max-width:960px;
+    margin:0 auto;
+    padding:10px
+  
+}
+nav>ul{
+    text-align: block;
+
+}
+nav>ul>li{
+    display: inline-block
+}
+nav>ul>li>a{
+    padding:10px;
+    margin-right:0;
+    text-decoration:none;
+    display:block;
+}
